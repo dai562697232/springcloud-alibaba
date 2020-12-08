@@ -1,0 +1,12 @@
+server:
+  port: 8000
+
+
+spring:
+  application:
+    name: nacos-config_8000
+  cloud:
+    nacos:
+      config:
+        name: nacos-config_8000
+        server-addr: 127.0.0.1:8848
